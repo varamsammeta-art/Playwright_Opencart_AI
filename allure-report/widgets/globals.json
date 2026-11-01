@@ -1,0 +1,1 @@
+{"errors":[{"timestamp":1792836430175,"message":"afterEach hook failed: Error: browserContext.close: Target page, context or browser has been closed","trace":"Error: browserContext.close: Target page, context or browser has been closed\n    at D:\\Playwright_Opencart_AI\\fixtures\\pageFixtures.ts:67:3"}],"attachments":[]}

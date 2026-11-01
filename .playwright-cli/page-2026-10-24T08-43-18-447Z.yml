@@ -1,0 +1,29 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - link [ref=e6] [cursor=pointer]:
+      - /url: http://localhost/opencart/upload/admin/index.php?route=common/login
+      - img "OpenCart" [ref=e7]
+  - generic [ref=e12]:
+    - heading " Please enter your login details." [level=1] [ref=e14]:
+      - generic [ref=e15]: 
+      - text: Please enter your login details.
+    - generic [ref=e17]:
+      - generic [ref=e18]:
+        - generic [ref=e19]: Username
+        - generic [ref=e20]:
+          - generic [ref=e21]: 
+          - textbox "Username" [ref=e23]
+      - generic [ref=e24]:
+        - generic [ref=e25]: Password
+        - generic [ref=e26]:
+          - generic [ref=e27]: 
+          - textbox "Password" [ref=e29]
+        - link "Forgotten Password" [ref=e31] [cursor=pointer]:
+          - /url: http://localhost/opencart/upload/admin/index.php?route=common/forgotten
+      - button " Login" [ref=e33] [cursor=pointer]:
+        - generic [ref=e34]: 
+        - text: Login
+  - contentinfo [ref=e35]:
+    - link "OpenCart" [ref=e36] [cursor=pointer]:
+      - /url: http://www.opencart.com
+    - text: © 2009-2026 All Rights Reserved.

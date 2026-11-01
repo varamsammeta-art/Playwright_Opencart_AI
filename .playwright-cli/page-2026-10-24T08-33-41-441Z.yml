@@ -1,0 +1,366 @@
+- generic [active] [ref=e1]:
+  - navigation [ref=e2]:
+    - link [ref=e3] [cursor=pointer]:
+      - /url: /
+    - list [ref=e5]:
+      - listitem [ref=e6]:
+        - link "Home" [ref=e7] [cursor=pointer]:
+          - /url: /
+      - listitem [ref=e8]:
+        - link "Docs" [ref=e9] [cursor=pointer]:
+          - /url: /docs
+      - listitem [ref=e10]:
+        - link "GitHub" [ref=e11] [cursor=pointer]:
+          - /url: https://github.com/keikaavousi/fake-store-api
+      - listitem [ref=e12]:
+        - link "Buy us a coffee" [ref=e13] [cursor=pointer]:
+          - /url: /donate
+  - main [ref=e14]:
+    - generic [ref=e15]:
+      - generic [ref=e17]:
+        - heading "Fake Store API" [level=1] [ref=e18]
+        - paragraph [ref=e19]: Realistic E-Commerce Data. Instantly.
+        - paragraph [ref=e20]: A free RESTful API for developers, ideal for prototyping, testing, or teaching. No backend setup required.
+        - generic [ref=e21]:
+          - link "Read Docs" [ref=e22] [cursor=pointer]:
+            - /url: /docs
+          - link "View on Github" [ref=e24] [cursor=pointer]:
+            - /url: https://github.com/keikaavousi/fake-store-api
+      - generic [ref=e27]:
+        - heading "Tired of fake JSON and Lorem Ipsum?" [level=2] [ref=e28]
+        - paragraph [ref=e29]: "FakeStoreAPI gives you clean, realistic e-commerce data: products, carts, users, and more. accessible in seconds via REST."
+        - paragraph
+      - generic [ref=e30]:
+        - generic [ref=e31]:
+          - heading "Example Request" [level=2] [ref=e32]
+          - generic [ref=e33]:
+            - button "Javascript" [ref=e34] [cursor=pointer]
+            - button "Python" [ref=e35] [cursor=pointer]
+            - button "Curl" [ref=e36] [cursor=pointer]
+            - button "Java" [ref=e37] [cursor=pointer]
+          - generic [ref=e38]:
+            - code [ref=e41]:
+              - text: fetch('https://fakestoreapi.com/products/1') .then(
+              - generic [ref=e42]: res=>
+              - text: res.json()) .then(
+              - generic [ref=e43]: json=>
+              - text: console.log(json))
+            - button [ref=e44] [cursor=pointer]
+        - generic [ref=e46]:
+          - heading "API Response" [level=2] [ref=e47]
+          - code [ref=e50]: "{ \"id\": 1, \"title\": \"Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops\", \"price\": 109.95, \"description\": \"Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday\", \"category\": \"men's clothing\", \"rating\": { \"rate\": 3.9, \"count\": 120 } }"
+      - generic [ref=e51]:
+        - heading "Resources" [level=2] [ref=e52]
+        - paragraph [ref=e53]: FakeStoreAPI provides the 4 essential resources commonly used in e-commerce apps. Use them to build realistic flows for your frontend or backend prototypes.
+        - list [ref=e54]:
+          - listitem [ref=e55]:
+            - generic [ref=e56]:
+              - link "Products" [ref=e57] [cursor=pointer]:
+                - /url: /docs#tag/Products
+              - generic [ref=e58]: List of items with title, price, category, description and image
+            - generic [ref=e59]: 20 products
+          - listitem [ref=e60]:
+            - generic [ref=e61]:
+              - link "Cart" [ref=e62] [cursor=pointer]:
+                - /url: /docs#tag/Carts
+              - generic [ref=e63]: Includes full user profiles (name, email, address, etc.)
+            - generic [ref=e64]: 20 carts
+          - listitem [ref=e65]:
+            - generic [ref=e66]:
+              - link "Users" [ref=e67] [cursor=pointer]:
+                - /url: /docs#tag/Users
+              - generic [ref=e68]: "Simulates shopping cart logic: user + list of product IDs + quantity"
+            - generic [ref=e69]: 10 users
+          - listitem [ref=e70]:
+            - generic [ref=e71]:
+              - link "Login Token" [ref=e72] [cursor=pointer]:
+                - /url: /docs#tag/Auth
+              - generic [ref=e73]: Returns a JWT token for testing authentication
+            - generic [ref=e74]: JWT token
+        - link "View Details on Docs" [ref=e75] [cursor=pointer]:
+          - /url: /docs
+      - generic [ref=e76]:
+        - heading "❤️ Loved by Millions of Developers" [level=2] [ref=e77]
+        - paragraph [ref=e78]:
+          - text: This is just a small glimpse of your incredible support. so much more kindness and trust has been shared over these
+          - strong [ref=e79]: 5 amazing years
+          - text: with FakeStoreAPI.
+        - paragraph [ref=e80]: Thank you for being part of this journey!
+        - generic [ref=e82]:
+          - group "1 / 17" [ref=e83]:
+            - generic [ref=e84]:
+              - link [ref=e85] [cursor=pointer]:
+                - /url: https://twitter.com/liscanojac/status/1459714990080937985
+                - generic [ref=e86]:
+                  - heading "Juan Canelon" [level=3] [ref=e89]
+                  - img "x icon" [ref=e91]
+              - generic [ref=e92]:
+                - text: Today I've been practicing with React-Redux making this kinda e-commerce app with
+                - link "https://fakestoreapi.com" [ref=e93] [cursor=pointer]:
+                  - /url: https://fakestoreapi.com/
+              - time [ref=e95]: 2021-11-14
+          - group "2 / 17" [ref=e96]:
+            - generic [ref=e97]:
+              - link [ref=e98] [cursor=pointer]:
+                - /url: https://dev.to/shreyvijayvargiya/top-4-free-fake-api-21mc
+                - generic [ref=e99]:
+                  - heading "Shrey Vijay Vargiya" [level=3] [ref=e102]
+                  - img "devto icon" [ref=e104]
+              - generic [ref=e105]:
+                - text: "Top 4 Free Fake API:"
+                - strong [ref=e106]: Fake store rest API
+                - text: for your e‑commerce or shopping website prototype.
+              - time [ref=e108]: 2022-11-22
+          - group "3 / 17" [ref=e109]:
+            - generic [ref=e110]:
+              - link [ref=e111] [cursor=pointer]:
+                - /url: https://dev.to/malikhaziq/10-web-apis-for-your-projects-65o
+                - generic [ref=e112]:
+                  - heading "Malik Haziq" [level=3] [ref=e115]
+                  - img "devto icon" [ref=e117]
+              - generic [ref=e118]:
+                - text: "10 APIs for your projects:"
+                - strong [ref=e119]: Fake Store API
+                - text: is a free and public web API that provides simulated data for an e‑commerce store.
+              - time [ref=e121]: 2023-02-27
+          - group "4 / 17" [ref=e122]:
+            - generic [ref=e123]:
+              - link [ref=e124] [cursor=pointer]:
+                - /url: https://medium.com/@mahmoudsaal7/4-outstanding-fake-api-providers-for-mobile-developers-to-streamline-testing-fc61fa4c847c
+                - generic [ref=e125]:
+                  - heading "Mahmoud Saleh" [level=3] [ref=e128]
+                  - img "medium icon" [ref=e130]
+              - generic [ref=e131]:
+                - text: "5 Outstanding Fake API Providers for Mobile Developers to Streamline Testing:"
+                - strong [ref=e132]: Fake Store API
+                - text: is a free online REST API that developers can use to make test orders, eCommerce, and cart integrations.
+              - time [ref=e134]: 2023-11-05
+          - group "5 / 17" [ref=e135]:
+            - generic [ref=e136]:
+              - link [ref=e137] [cursor=pointer]:
+                - /url: https://medium.com/peanutsquarellp/understanding-the-fakestoreapi-a-primer-for-ecommerce-app-development-e30f8c4c671d
+                - generic [ref=e138]:
+                  - heading "PeanutSquare" [level=3] [ref=e141]
+                  - img "medium icon" [ref=e143]
+              - generic [ref=e144]:
+                - text: Understanding the
+                - strong [ref=e145]: FakeStoreApi
+                - text: – a primer for ecommerce app development.
+              - time [ref=e147]: 2023-08-14
+          - group "6 / 17" [ref=e148]:
+            - generic [ref=e149]:
+              - link [ref=e150] [cursor=pointer]:
+                - /url: https://www.olitt.com/blog/free-api-for-ecommerce-website/
+                - generic [ref=e151]:
+                  - heading "Olitt Blog" [level=3] [ref=e154]
+                  - img "blog icon" [ref=e156]
+              - generic [ref=e157]:
+                - text: "5 Best Free eCommerce APIs and Store API Solutions for Developers:"
+                - strong [ref=e158]: Fake Store API
+                - text: is a fantastic option for developers looking to create a shopping website prototype or test their e‑commerce applications.
+              - time [ref=e160]: 2024-05-11
+          - group "7 / 17" [ref=e161]:
+            - generic [ref=e162]:
+              - link [ref=e163] [cursor=pointer]:
+                - /url: https://www.peanutsquare.com/exploring-fakestoreapi-for-ecommerce-apps/
+                - generic [ref=e164]:
+                  - heading "PeanutSquare" [level=3] [ref=e167]
+                  - img "blog icon" [ref=e169]
+              - generic [ref=e170]:
+                - text: Exploring
+                - strong [ref=e171]: FakeStoreAPI
+                - text: for ecommerce apps – essential component for our Flutter ecommerce app.
+              - time [ref=e173]: 2023-07-21
+          - group "8 / 17" [ref=e174]:
+            - generic [ref=e175]:
+              - link [ref=e176] [cursor=pointer]:
+                - /url: https://www.linkedin.com/posts/samimaxhuni_chatwisebot-aichatbot-mcp-activity-7353884349500403712-3V38
+                - generic [ref=e177]:
+                  - heading "Sami Maxhuni" [level=3] [ref=e180]
+                  - img "linkedin icon" [ref=e182]
+              - generic [ref=e183]:
+                - text: "🚀 New Feature in ChatWise: Now Powered by Model Context Protocol (MCP) … In this example, we’ve integrated the"
+                - strong [ref=e184]: FakeStoreAPI
+                - text: . ✅ Fetch product data in real time ✅ Display the results in a beautiful interactive carousel ✅ Filter the results via natural language – e.g., “Show me all products under 50 USD”
+              - time [ref=e186]: 2025-07-24
+          - group "9 / 17" [ref=e187]:
+            - generic [ref=e188]:
+              - link [ref=e189] [cursor=pointer]:
+                - /url: https://twitter.com/ChrisStaud/status/1625735992161206272
+                - generic [ref=e190]:
+                  - heading "Chris Staudinger" [level=3] [ref=e193]
+                  - img "x icon" [ref=e195]
+              - generic [ref=e196]:
+                - text: An e-commerce store is a great project to have and it just got easier with
+                - strong [ref=e197]: Fake Store API
+                - text: .Forget about spinning up the backend and database and focus on building cart, wishlists, recommendations and other functionalities💡👉
+                - link "https://fakestoreapi.com" [ref=e198] [cursor=pointer]:
+                  - /url: https://fakestoreapi.com
+              - time [ref=e200]: 2023-02-15
+          - group "10 / 17" [ref=e201]:
+            - generic [ref=e202]:
+              - link [ref=e203] [cursor=pointer]:
+                - /url: https://twitter.com/Nikoletta3108/status/1483391717650755586
+                - generic [ref=e204]:
+                  - heading "Nikoletta" [level=3] [ref=e207]
+                  - img "x icon" [ref=e209]
+              - generic [ref=e210]:
+                - text: You want to practice or test REST API? Here is the list of websites with fake APIs that can save your time in creating dummy data. 👇
+                - link "https://jsonplaceholder.typicode.com" [ref=e211] [cursor=pointer]:
+                  - /url: https://jsonplaceholder.typicode.com/
+                - link "https://fakestoreapi.com" [ref=e212] [cursor=pointer]:
+                  - /url: https://fakestoreapi.com/
+                - link "https://pokeapi.co" [ref=e213] [cursor=pointer]:
+                  - /url: https://pokeapi.co/
+                - link "https://reqres.in" [ref=e214] [cursor=pointer]:
+                  - /url: https://reqres.in/
+                - link "https://dummyapi.io" [ref=e215] [cursor=pointer]:
+                  - /url: https://dummyapi.io/
+              - time [ref=e217]: 2022-01-18
+          - group "11 / 17" [ref=e218]:
+            - generic [ref=e219]:
+              - link [ref=e220] [cursor=pointer]:
+                - /url: https://twitter.com/OumarFall07/status/1501688333352775683
+                - generic [ref=e221]:
+                  - heading "Oumar FALL" [level=3] [ref=e224]
+                  - img "x icon" [ref=e226]
+              - generic [ref=e227]:
+                - text: Hello devs here is an application that I had to realize with flutter.Here I made some request to with an api to be able to get these dataLe repo
+                - link "https://github.com/omar6260/flutter_rest_api" [ref=e228] [cursor=pointer]:
+                  - /url: https://github.com/omar6260/flutter_rest_api
+                - text: Api
+                - link "http://fakestoreapi.com" [ref=e229] [cursor=pointer]:
+                  - /url: https://fakestoreapi.com
+                - link "@galsendev221" [ref=e230] [cursor=pointer]:
+                  - /url: https://twitter.com/galsendev221
+                - link "@FlutterSenegal" [ref=e231] [cursor=pointer]:
+                  - /url: https://twitter.com/FlutterSenegal
+              - time [ref=e233]: 2022-03-09
+          - group "12 / 17" [ref=e234]:
+            - generic [ref=e235]:
+              - link [ref=e236] [cursor=pointer]:
+                - /url: https://twitter.com/_joelkanyi/status/1537296884175446016
+                - generic [ref=e237]:
+                  - heading "Joel Kanyi" [level=3] [ref=e240]
+                  - img "x icon" [ref=e242]
+              - generic [ref=e243]:
+                - text: "For those asking for the API, here is the URL:"
+                - link "https://fakestoreapi.com" [ref=e244] [cursor=pointer]:
+                  - /url: https://fakestoreapi.com/
+              - time [ref=e246]: 2022-06-16
+          - group "13 / 17" [ref=e247]:
+            - generic [ref=e248]:
+              - link [ref=e249] [cursor=pointer]:
+                - /url: https://twitter.com/ronexondimu/status/1542773684817076224
+                - generic [ref=e250]:
+                  - heading "Lemonr" [level=3] [ref=e253]
+                  - img "x icon" [ref=e255]
+              - generic [ref=e256]:
+                - text: Online store app using jetpack compose
+                - link "#JetpackCompose" [ref=e257] [cursor=pointer]:
+                  - /url: https://twitter.com/hashtag/JetpackCompose
+                - text: ",for api here is the link"
+                - link "https://fakestoreapi.com" [ref=e258] [cursor=pointer]:
+                  - /url: https://fakestoreapi.com/
+                - text: and the source code
+                - link "https://github.com/Ronexlemon/Store" [ref=e259] [cursor=pointer]:
+                  - /url: https://github.com/Ronexlemon/Store
+                - text: any changes is allowed
+              - time [ref=e261]: 2022-07-01
+          - group "14 / 17" [ref=e262]:
+            - generic [ref=e263]:
+              - link [ref=e264] [cursor=pointer]:
+                - /url: https://twitter.com/_collinceokeyo/status/1582349624714571776
+                - generic [ref=e265]:
+                  - heading "Ramg" [level=3] [ref=e268]
+                  - img "x icon" [ref=e270]
+              - generic [ref=e271]:
+                - text: Check out the project I have been working on. An Android app that consumes
+                - strong [ref=e272]: FAKESTORE API
+                - link "https://fakestoreapi.com" [ref=e273] [cursor=pointer]:
+                  - /url: https://fakestoreapi.com/
+                - text: .You can find the project on GitHub
+                - link "https://github.com/Collince-Okeyo/Shoppa" [ref=e274] [cursor=pointer]:
+                  - /url: https://github.com/Collince-Okeyo/Shoppa
+                - text: Contributions are welcomed🤗
+                - link "#100DaysOfCode" [ref=e275] [cursor=pointer]:
+                  - /url: https://twitter.com/hashtag/100DaysOfCode
+                - link "#Android" [ref=e276] [cursor=pointer]:
+                  - /url: https://twitter.com/hashtag/Android
+                - link "#Kotlin" [ref=e277] [cursor=pointer]:
+                  - /url: https://twitter.com/hashtag/Kotlin
+                - link:
+                  - /url: https://t.co/GvNPeEMvM5
+              - time [ref=e279]: 2022-10-18
+          - group "15 / 17" [ref=e280]:
+            - generic [ref=e281]:
+              - link [ref=e282] [cursor=pointer]:
+                - /url: https://twitter.com/slow_developer/status/1601529729454063617
+                - generic [ref=e283]:
+                  - heading "Haider" [level=3] [ref=e286]
+                  - img "x icon" [ref=e288]
+              - generic [ref=e289]:
+                - text: 🔗
+                - link "https://fakestoreapi.com" [ref=e290] [cursor=pointer]:
+                  - /url: https://fakestoreapi.com
+              - time [ref=e292]: 2022-12-10
+          - group "16 / 17" [ref=e293]:
+            - generic [ref=e294]:
+              - link [ref=e295] [cursor=pointer]:
+                - /url: https://www.linkedin.com/posts/sheikh-naim_fake-store-api-activity-7094399065160888320-7IdU
+                - generic [ref=e296]:
+                  - heading "Sheikh Naim" [level=3] [ref=e299]
+                  - img "linkedin icon" [ref=e301]
+              - generic [ref=e302]:
+                - text: Today i learn about how to search product by Category with HTML, CSS, and JavaScript... uses the
+                - strong [ref=e303]: fakestoreapi.com
+                - text: API to fetch a list of products…
+              - time [ref=e305]: 2024-07-01
+          - group "17 / 17" [ref=e306]:
+            - generic [ref=e307]:
+              - link [ref=e308] [cursor=pointer]:
+                - /url: https://www.linkedin.com/posts/abhishek-kumar-mehta_github-abhi865625fake-store-api-activity-7155177391298928640--xbn
+                - generic [ref=e309]:
+                  - heading "Abhishek Kumar Mehta" [level=3] [ref=e312]
+                  - img "linkedin icon" [ref=e314]
+              - generic [ref=e315]:
+                - text: "🚀 Excited to Share: Fetching Data from"
+                - strong [ref=e316]: Fake Store API
+                - text: … Created a simple webpage that fetches product data from the Fake Store API…
+              - time [ref=e318]: 2024-06-05
+  - contentinfo [ref=e319]:
+    - generic [ref=e320]:
+      - generic [ref=e321]:
+        - heading "Let’s Connect" [level=3] [ref=e322]
+        - link "Have questions or feedback?" [ref=e323] [cursor=pointer]:
+          - /url: mailto:info@fakestoreapi.com
+        - generic [ref=e324]:
+          - link [ref=e325] [cursor=pointer]:
+            - /url: mailto:info@fakestoreapi.com
+          - link [ref=e327] [cursor=pointer]:
+            - /url: https://x.com/fakestoreapi
+          - link [ref=e329] [cursor=pointer]:
+            - /url: https://linkedin.com/in/fakestoreapi
+      - list [ref=e332]:
+        - listitem [ref=e333]:
+          - link "Home" [ref=e334] [cursor=pointer]:
+            - /url: /
+        - listitem [ref=e335]:
+          - link "Docs" [ref=e336] [cursor=pointer]:
+            - /url: /docs
+        - listitem [ref=e337]:
+          - link "Github" [ref=e338] [cursor=pointer]:
+            - /url: https://github.com/keikaavousi/fake-store-api
+        - listitem [ref=e339]:
+          - link "Buy us a coffee" [ref=e340] [cursor=pointer]:
+            - /url: /donate
+    - generic [ref=e343]:
+      - paragraph [ref=e344]:
+        - text: ©
+        - time [ref=e345]: "2026"
+        - text: Fake Store API - All Rights Reserved
+      - paragraph [ref=e346]: old-version-production
+      - paragraph [ref=e347]:
+        - text: Made with ♥ by
+        - link "MohammadReza Keikavousi" [ref=e348] [cursor=pointer]:
+          - /url: https://linkedin.com/in/keikaavousi

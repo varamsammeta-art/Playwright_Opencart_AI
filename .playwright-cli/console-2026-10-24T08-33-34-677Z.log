@@ -1,0 +1,8 @@
+[    3471ms] [WARNING] One of your code blocks includes unescaped HTML. This is a potentially serious security risk. @ https://fakestoreapi.com/js/highlight.min.js:262
+[    3471ms] [WARNING] https://github.com/highlightjs/highlight.js/wiki/security @ https://fakestoreapi.com/js/highlight.min.js:263
+[    3471ms] [WARNING] The element with unescaped HTML: @ https://fakestoreapi.com/js/highlight.min.js:264
+[    3471ms] [WARNING] JSHandle@node @ https://fakestoreapi.com/js/highlight.min.js:265
+[    6705ms] [WARNING] One of your code blocks includes unescaped HTML. This is a potentially serious security risk. @ https://fakestoreapi.com/js/highlight.min.js:262
+[    6705ms] [WARNING] https://github.com/highlightjs/highlight.js/wiki/security @ https://fakestoreapi.com/js/highlight.min.js:263
+[    6705ms] [WARNING] The element with unescaped HTML: @ https://fakestoreapi.com/js/highlight.min.js:264
+[    6705ms] [WARNING] JSHandle@node @ https://fakestoreapi.com/js/highlight.min.js:265
